@@ -4,17 +4,17 @@
  * Custom configuration values
  */
 var titlePrefix = "SOAJS";
-var mydomain = "soajs.org";
+var mydomain = "test.org";
 var mydomainport = location.port;
 if (mydomainport && mydomainport !== 80) {
 	mydomain += ":" + mydomainport;
 }
 var protocol = window.location.protocol;
 var themeToUse = "default";
-var whitelistedDomain = ['localhost', '127.0.0.1', 'dashboard-api.' + mydomain];
+var whitelistedDomain = ['localhost', '127.0.0.1', 'test-api.' + mydomain];
 var apiConfiguration = {
-	domain: protocol + '//dashboard-api.' + mydomain,
-	key: '9b96ba56ce934ded56c3f21ac9bdaddc8ba4782b7753cf07576bfabcace8632eba1749ff1187239ef1f56dd74377aa1e5d0a1113de2ed18368af4b808ad245bc7da986e101caddb7b75992b14d6a866db884ea8aee5ab02786886ecf9f25e974'
+	domain: protocol + '//test-api.' + mydomain,
+	key: '9768f213413953fe65e98bce21c62c572427511245e3859235da9f56daa310f59033337cfd15eeec06ffbe147e8f11f782198cb9a18fe72d22cac36a466687760b937980d740bc41518aea8b275e0a01fb0ac8d986c12a5404466644a600a8a0'
 };
 
 var SOAJSRMS = ['soajs.controller','soajs.urac','soajs.oauth','soajs.dashboard','soajs.prx','soajs.gcs'];
