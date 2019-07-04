@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - bitbucket-server-nodejs > request-promise > request-promise-core > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - bitbucket-server-nodejs > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - soajs > async > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - bitbucket-server-nodejs > async > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - kubernetes-client > async > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - async > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - soajs > soajs.core.drivers > async > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - soajs > soajs.core.modules > async > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - soajs > soajs.core.modules > elasticsearch > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - soajs > soajs.urac.driver > soajs.core.modules > async > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
+    - soajs > soajs.urac.driver > soajs.core.modules > elasticsearch > lodash:
+        patched: '2019-07-04T05:29:25.479Z'
