@@ -49,7 +49,7 @@
     "github": "^0.2.4",
     "gridfs-stream": "1.1.1",
     "kubernetes-client": "^2.2.2",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.0",
     "moment-timezone": "0.5.11",
     "ncp": "2.0.0",
     "object-hash": "1.1.5",
